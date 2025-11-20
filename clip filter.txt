@@ -1,0 +1,1533 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       192.168.8.100         20.106.86.13          TLSv1.2  268    Client Hello (SNI=settings-win.data.microsoft.com)
+
+Frame 1: Packet, 268 bytes on wire (2144 bits), 268 bytes captured (2144 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.106.86.13
+Transmission Control Protocol, Src Port: 34056, Dst Port: 443, Seq: 1, Ack: 1, Len: 214
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 1.187551       192.168.8.100         20.106.86.13          TCP      54     34049 → 443 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
+
+Frame 4: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.106.86.13
+Transmission Control Protocol, Src Port: 34049, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 3.187573       192.168.8.100         20.50.201.201         TLSv1.2  340    Client Hello (SNI=self.events.data.microsoft.com)
+
+Frame 5: Packet, 340 bytes on wire (2720 bits), 340 bytes captured (2720 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.50.201.201
+Transmission Control Protocol, Src Port: 34055, Dst Port: 443, Seq: 1, Ack: 1, Len: 286
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 3.546839       192.168.8.100         74.178.76.128         TCP      54     34052 → 443 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
+
+Frame 6: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 74.178.76.128
+Transmission Control Protocol, Src Port: 34052, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 3.590498       192.168.8.100         135.233.95.144        TCP      66     34057 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 9: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 135.233.95.144
+Transmission Control Protocol, Src Port: 34057, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 3.905211       135.233.95.144        192.168.8.100         TCP      70     443 → 34057 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 WS=256 SACK_PERM
+
+Frame 10: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 135.233.95.144, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34057, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 3.905430       192.168.8.100         135.233.95.144        TCP      54     34057 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=0
+
+Frame 11: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 135.233.95.144
+Transmission Control Protocol, Src Port: 34057, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 3.908318       192.168.8.100         135.233.95.144        TLSv1.2  263    Client Hello (SNI=slscr.update.microsoft.com)
+
+Frame 12: Packet, 263 bytes on wire (2104 bits), 263 bytes captured (2104 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 135.233.95.144
+Transmission Control Protocol, Src Port: 34057, Dst Port: 443, Seq: 1, Ack: 1, Len: 209
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 4.125089       192.168.8.100         20.106.86.13          TCP      268    [TCP Retransmission] 34056 → 443 [PSH, ACK] Seq=1 Ack=1 Win=515 Len=214
+
+Frame 13: Packet, 268 bytes on wire (2144 bits), 268 bytes captured (2144 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.106.86.13
+Transmission Control Protocol, Src Port: 34056, Dst Port: 443, Seq: 1, Ack: 1, Len: 214
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 4.574711       192.168.8.100         135.233.95.144        TCP      263    [TCP Retransmission] 34057 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=209
+
+Frame 14: Packet, 263 bytes on wire (2104 bits), 263 bytes captured (2104 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 135.233.95.144
+Transmission Control Protocol, Src Port: 34057, Dst Port: 443, Seq: 1, Ack: 1, Len: 209
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 5.512176       192.168.8.100         135.233.95.144        TCP      263    [TCP Retransmission] 34057 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=209
+
+Frame 15: Packet, 263 bytes on wire (2104 bits), 263 bytes captured (2104 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 135.233.95.144
+Transmission Control Protocol, Src Port: 34057, Dst Port: 443, Seq: 1, Ack: 1, Len: 209
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 6.153729       192.168.8.100         192.168.8.1           DNS      94     Standard query 0x789a A instantmessaging-pa.googleapis.com
+
+Frame 17: Packet, 94 bytes on wire (752 bits), 94 bytes captured (752 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 192.168.8.1
+User Datagram Protocol, Src Port: 50899, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 6.457862       192.168.8.1           192.168.8.100         DNS      162    Standard query response 0x789a A instantmessaging-pa.googleapis.com A 216.239.36.223 A 216.239.38.223 A 216.239.32.223 A 216.239.34.223
+
+Frame 18: Packet, 162 bytes on wire (1296 bits), 162 bytes captured (1296 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 192.168.8.1, Dst: 192.168.8.100
+User Datagram Protocol, Src Port: 53, Dst Port: 50899
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 6.555403       192.168.8.100         216.239.36.223        TCP      66     34058 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 19: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34058, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 6.853513       192.168.8.100         216.239.36.223        TCP      66     34059 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 20: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34059, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 7.207522       192.168.8.100         216.239.32.223        TCP      55     34048 → 443 [ACK] Seq=1 Ack=1 Win=515 Len=1
+
+Frame 21: Packet, 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.32.223
+Transmission Control Protocol, Src Port: 34048, Dst Port: 443, Seq: 1, Ack: 1, Len: 1
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 7.260800       216.239.36.223        192.168.8.100         TCP      70     443 → 34058 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 SACK_PERM WS=256
+
+Frame 22: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 216.239.36.223, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34058, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 7.261019       192.168.8.100         216.239.36.223        TCP      54     34058 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=0
+
+Frame 23: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34058, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 7.281998       192.168.8.100         216.239.36.223        TCP      1254   34058 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200 [TCP PDU reassembled in 25]
+
+Frame 24: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34058, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 7.281998       192.168.8.100         216.239.36.223        TLSv1.2  630    Client Hello (SNI=instantmessaging-pa.googleapis.com)
+
+Frame 25: Packet, 630 bytes on wire (5040 bits), 630 bytes captured (5040 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34058, Dst Port: 443, Seq: 1201, Ack: 1, Len: 576
+[3 Reassembled TCP Segments (1776 bytes): #24(1200), #39(1200), #25(576)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 7.290168       216.239.36.223        192.168.8.100         TCP      70     443 → 34059 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 SACK_PERM WS=256
+
+Frame 26: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 216.239.36.223, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34059, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 7.290368       192.168.8.100         216.239.36.223        TCP      54     34059 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=0
+
+Frame 27: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34059, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 7.298856       192.168.8.100         216.239.36.223        TCP      1254   34059 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200 [TCP PDU reassembled in 29]
+
+Frame 28: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34059, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 7.298856       192.168.8.100         216.239.36.223        TLSv1.2  630    Client Hello (SNI=instantmessaging-pa.googleapis.com)
+
+Frame 29: Packet, 630 bytes on wire (5040 bits), 630 bytes captured (5040 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34059, Dst Port: 443, Seq: 1201, Ack: 1, Len: 576
+[3 Reassembled TCP Segments (1776 bytes): #28(1200), #38(1200), #29(576)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 7.366630       192.168.8.100         135.233.95.144        TCP      263    [TCP Retransmission] 34057 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=209
+
+Frame 30: Packet, 263 bytes on wire (2104 bits), 263 bytes captured (2104 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 135.233.95.144
+Transmission Control Protocol, Src Port: 34057, Dst Port: 443, Seq: 1, Ack: 1, Len: 209
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 7.460777       216.239.32.223        192.168.8.100         TCP      58     443 → 34048 [RST] Seq=1 Win=0 Len=0
+
+Frame 31: Packet, 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 216.239.32.223, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34048, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 7.618489       192.168.8.100         20.106.86.13          TLSv1.2  268    Client Hello (SNI=settings-win.data.microsoft.com)
+
+Frame 32: Packet, 268 bytes on wire (2144 bits), 268 bytes captured (2144 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.106.86.13
+Transmission Control Protocol, Src Port: 34054, Dst Port: 443, Seq: 1, Ack: 1, Len: 214
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 7.851536       216.239.32.223        192.168.8.100         TCP      58     443 → 34048 [RST] Seq=1 Win=0 Len=0
+
+Frame 33: Packet, 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 216.239.32.223, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34048, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 7.851967       216.239.36.223        192.168.8.100         TCP      70     [TCP Out-Of-Order] 443 → 34058 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 SACK_PERM WS=256
+
+Frame 34: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 216.239.36.223, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34058, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 7.852046       192.168.8.100         216.239.36.223        TCP      66     [TCP Dup ACK 23#1] 34058 → 443 [ACK] Seq=1777 Ack=1 Win=131840 Len=0 SLE=0 SRE=1
+
+Frame 35: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34058, Dst Port: 443, Seq: 1777, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 7.853108       216.239.36.223        192.168.8.100         TCP      70     [TCP Retransmission] 443 → 34059 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 SACK_PERM WS=256
+
+Frame 36: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 216.239.36.223, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34059, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 7.853214       192.168.8.100         216.239.36.223        TCP      66     [TCP Dup ACK 27#1] 34059 → 443 [ACK] Seq=1777 Ack=1 Win=131840 Len=0 SLE=0 SRE=1
+
+Frame 37: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34059, Dst Port: 443, Seq: 1777, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 8.158648       192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34059 → 443 [PSH, ACK] Seq=577 Ack=1 Win=131840 Len=1200 [TCP PDU reassembled in 29]
+
+Frame 38: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34059, Dst Port: 443, Seq: 577, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 8.663678       192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34058 → 443 [PSH, ACK] Seq=577 Ack=1 Win=131840 Len=1200 [TCP PDU reassembled in 25]
+
+Frame 39: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34058, Dst Port: 443, Seq: 577, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 9.449505       192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34059 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 40: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34059, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 10.730676      192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34058 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 41: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34058, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 11.058870      192.168.8.100         135.233.95.144        TCP      263    [TCP Retransmission] 34057 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=209
+
+Frame 42: Packet, 263 bytes on wire (2104 bits), 263 bytes captured (2104 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 135.233.95.144
+Transmission Control Protocol, Src Port: 34057, Dst Port: 443, Seq: 1, Ack: 1, Len: 209
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 11.154214      192.168.8.100         20.50.201.201         TCP      340    [TCP Retransmission] 34055 → 443 [PSH, ACK] Seq=1 Ack=1 Win=1024 Len=286
+
+Frame 43: Packet, 340 bytes on wire (2720 bits), 340 bytes captured (2720 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.50.201.201
+Transmission Control Protocol, Src Port: 34055, Dst Port: 443, Seq: 1, Ack: 1, Len: 286
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 12.011851      192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34059 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 44: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34059, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 12.371266      192.168.8.100         20.106.86.13          TCP      268    [TCP Retransmission] 34056 → 443 [PSH, ACK] Seq=1 Ack=1 Win=515 Len=214
+
+Frame 45: Packet, 268 bytes on wire (2144 bits), 268 bytes captured (2144 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.106.86.13
+Transmission Control Protocol, Src Port: 34056, Dst Port: 443, Seq: 1, Ack: 1, Len: 214
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 14.871350      192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34058 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 46: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34058, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 17.128556      192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34059 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 49: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34059, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 18.441060      192.168.8.100         135.233.95.144        TCP      263    [TCP Retransmission] 34057 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=209
+
+Frame 50: Packet, 263 bytes on wire (2104 bits), 263 bytes captured (2104 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 135.233.95.144
+Transmission Control Protocol, Src Port: 34057, Dst Port: 443, Seq: 1, Ack: 1, Len: 209
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 23.143592      192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34058 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 51: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34058, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 24.963070      192.168.8.100         20.106.86.13          TCP      54     34056 → 443 [FIN, ACK] Seq=215 Ack=1 Win=515 Len=0
+
+Frame 53: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.106.86.13
+Transmission Control Protocol, Src Port: 34056, Dst Port: 443, Seq: 215, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 27.066466      192.168.8.100         20.50.201.201         TCP      340    [TCP Retransmission] 34055 → 443 [PSH, ACK] Seq=1 Ack=1 Win=1024 Len=286
+
+Frame 54: Packet, 340 bytes on wire (2720 bits), 340 bytes captured (2720 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.50.201.201
+Transmission Control Protocol, Src Port: 34055, Dst Port: 443, Seq: 1, Ack: 1, Len: 286
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 27.365856      192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34059 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 55: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34059, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 28.852469      192.168.8.100         20.106.86.13          TCP      268    [TCP Retransmission] 34056 → 443 [FIN, PSH, ACK] Seq=1 Ack=1 Win=515 Len=214
+
+Frame 56: Packet, 268 bytes on wire (2144 bits), 268 bytes captured (2144 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.106.86.13
+Transmission Control Protocol, Src Port: 34056, Dst Port: 443, Seq: 1, Ack: 1, Len: 214
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 33.202914      192.168.8.100         135.233.95.144        TCP      263    [TCP Retransmission] 34057 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=209
+
+Frame 57: Packet, 263 bytes on wire (2104 bits), 263 bytes captured (2104 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 135.233.95.144
+Transmission Control Protocol, Src Port: 34057, Dst Port: 443, Seq: 1, Ack: 1, Len: 209
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 39.693256      192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34058 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 60: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34058, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 47.840403      192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34059 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 67: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34059, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 52.269732      192.168.8.100         216.239.36.223        TCP      55     [TCP Spurious Retransmission] 34058 → 443 [ACK] Seq=0 Ack=1 Win=131840 Len=1
+
+Frame 70: Packet, 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34058, Dst Port: 443, Seq: 0, Ack: 1, Len: 1
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 52.300937      192.168.8.100         216.239.36.223        TCP      55     [TCP Spurious Retransmission] 34059 → 443 [ACK] Seq=0 Ack=1 Win=131840 Len=1
+
+Frame 71: Packet, 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34059, Dst Port: 443, Seq: 0, Ack: 1, Len: 1
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 53.702568      192.168.8.100         20.106.86.13          TCP      54     34054 → 443 [RST, ACK] Seq=216 Ack=1 Win=0 Len=0
+
+Frame 72: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.106.86.13
+Transmission Control Protocol, Src Port: 34054, Dst Port: 443, Seq: 216, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 58.898466      192.168.8.100         20.50.201.201         TCP      340    [TCP Retransmission] 34055 → 443 [PSH, ACK] Seq=1 Ack=1 Win=1024 Len=286
+
+Frame 74: Packet, 340 bytes on wire (2720 bits), 340 bytes captured (2720 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.50.201.201
+Transmission Control Protocol, Src Port: 34055, Dst Port: 443, Seq: 1, Ack: 1, Len: 286
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 59.582836      192.168.8.100         150.171.22.17         TCP      66     34060 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 79: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34060, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 59.653720      150.171.22.17         192.168.8.100         TCP      70     443 → 34060 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 WS=256 SACK_PERM
+
+Frame 80: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 150.171.22.17, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34060, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 59.653924      192.168.8.100         150.171.22.17         TCP      54     34060 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=0
+
+Frame 81: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34060, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 59.655790      192.168.8.100         150.171.22.17         TCP      1254   34060 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200 [TCP PDU reassembled in 83]
+
+Frame 82: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34060, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 59.655790      192.168.8.100         150.171.22.17         TLSv1.2  617    Client Hello (SNI=config.edge.skype.com)
+
+Frame 83: Packet, 617 bytes on wire (4936 bits), 617 bytes captured (4936 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34060, Dst Port: 443, Seq: 1201, Ack: 1, Len: 563
+[3 Reassembled TCP Segments (1763 bytes): #82(1200), #84(1200), #83(563)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 59.809822      192.168.8.100         150.171.22.17         TCP      1254   [TCP Retransmission] 34060 → 443 [PSH, ACK] Seq=564 Ack=1 Win=131840 Len=1200 [TCP PDU reassembled in 83]
+
+Frame 84: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34060, Dst Port: 443, Seq: 564, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 60.112028      192.168.8.100         150.171.22.17         TCP      1254   [TCP Retransmission] 34060 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 85: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34060, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 60.724098      192.168.8.100         150.171.22.17         TCP      1254   [TCP Retransmission] 34060 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 86: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34060, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 61.826617      192.168.8.100         20.106.86.13          TCP      54     34056 → 443 [RST, ACK] Seq=216 Ack=1 Win=0 Len=0
+
+Frame 87: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.106.86.13
+Transmission Control Protocol, Src Port: 34056, Dst Port: 443, Seq: 216, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 61.936690      192.168.8.100         150.171.22.17         TCP      1254   [TCP Retransmission] 34060 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 88: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34060, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 62.713557      192.168.8.100         135.233.95.144        TCP      54     34057 → 443 [RST, ACK] Seq=210 Ack=1 Win=0 Len=0
+
+Frame 89: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 135.233.95.144
+Transmission Control Protocol, Src Port: 34057, Dst Port: 443, Seq: 210, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 64.347959      192.168.8.100         150.171.22.17         TCP      1254   [TCP Retransmission] 34060 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 90: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34060, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 64.614679      192.168.8.100         13.89.178.27          TCP      66     34061 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 93: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 13.89.178.27
+Transmission Control Protocol, Src Port: 34061, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 64.941157      13.89.178.27          192.168.8.100         TCP      70     443 → 34061 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 WS=256 SACK_PERM
+
+Frame 96: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 13.89.178.27, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34061, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 64.941497      192.168.8.100         13.89.178.27          TCP      54     34061 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=0
+
+Frame 97: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 13.89.178.27
+Transmission Control Protocol, Src Port: 34061, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 64.955937      192.168.8.100         13.89.178.27          TLSv1.2  266    Client Hello (SNI=v10.events.data.microsoft.com)
+
+Frame 98: Packet, 266 bytes on wire (2128 bits), 266 bytes captured (2128 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 13.89.178.27
+Transmission Control Protocol, Src Port: 34061, Dst Port: 443, Seq: 1, Ack: 1, Len: 212
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 65.642424      192.168.8.100         13.89.178.27          TCP      266    [TCP Retransmission] 34061 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=212
+
+Frame 99: Packet, 266 bytes on wire (2128 bits), 266 bytes captured (2128 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 13.89.178.27
+Transmission Control Protocol, Src Port: 34061, Dst Port: 443, Seq: 1, Ack: 1, Len: 212
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 66.599821      192.168.8.100         13.89.178.27          TCP      266    [TCP Retransmission] 34061 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=212
+
+Frame 100: Packet, 266 bytes on wire (2128 bits), 266 bytes captured (2128 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 13.89.178.27
+Transmission Control Protocol, Src Port: 34061, Dst Port: 443, Seq: 1, Ack: 1, Len: 212
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 68.526653      192.168.8.100         13.89.178.27          TCP      266    [TCP Retransmission] 34061 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=212
+
+Frame 101: Packet, 266 bytes on wire (2128 bits), 266 bytes captured (2128 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 13.89.178.27
+Transmission Control Protocol, Src Port: 34061, Dst Port: 443, Seq: 1, Ack: 1, Len: 212
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 69.152683      192.168.8.100         150.171.22.17         TCP      1254   [TCP Retransmission] 34060 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 102: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34060, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 72.363383      192.168.8.100         13.89.178.27          TCP      266    [TCP Retransmission] 34061 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=212
+
+Frame 105: Packet, 266 bytes on wire (2128 bits), 266 bytes captured (2128 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 13.89.178.27
+Transmission Control Protocol, Src Port: 34061, Dst Port: 443, Seq: 1, Ack: 1, Len: 212
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 72.771350      192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34058 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 106: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34058, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 76.199063      192.168.8.100         13.89.178.27          TCP      266    [TCP Retransmission] 34061 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=212
+
+Frame 109: Packet, 266 bytes on wire (2128 bits), 266 bytes captured (2128 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 13.89.178.27
+Transmission Control Protocol, Src Port: 34061, Dst Port: 443, Seq: 1, Ack: 1, Len: 212
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 78.766116      192.168.8.100         150.171.22.17         TCP      54     34060 → 443 [RST, ACK] Seq=1201 Ack=1 Win=0 Len=0
+
+Frame 110: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34060, Dst Port: 443, Seq: 1201, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 78.768935      192.168.8.100         150.171.22.17         TCP      66     34062 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 111: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34062, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 79.014105      150.171.22.17         192.168.8.100         TCP      70     443 → 34062 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 WS=256 SACK_PERM
+
+Frame 112: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 150.171.22.17, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34062, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 79.014305      192.168.8.100         150.171.22.17         TCP      54     34062 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=0
+
+Frame 113: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34062, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 79.016548      192.168.8.100         150.171.22.17         TCP      1254   34062 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200 [TCP PDU reassembled in 115]
+
+Frame 114: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34062, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 79.016548      192.168.8.100         150.171.22.17         TLSv1.2  585    Client Hello (SNI=config.edge.skype.com)
+
+Frame 115: Packet, 585 bytes on wire (4680 bits), 585 bytes captured (4680 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34062, Dst Port: 443, Seq: 1201, Ack: 1, Len: 531
+[3 Reassembled TCP Segments (1731 bytes): #114(1200), #116(1200), #115(531)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 79.500378      192.168.8.100         150.171.22.17         TCP      1254   [TCP Retransmission] 34062 → 443 [PSH, ACK] Seq=532 Ack=1 Win=131840 Len=1200 [TCP PDU reassembled in 115]
+
+Frame 116: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34062, Dst Port: 443, Seq: 532, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 79.611584      150.171.22.17         192.168.8.100         TCP      70     [TCP Out-Of-Order] 443 → 34062 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 WS=256 SACK_PERM
+
+Frame 117: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 150.171.22.17, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34062, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 79.611693      192.168.8.100         150.171.22.17         TCP      66     [TCP Dup ACK 113#1] 34062 → 443 [ACK] Seq=1732 Ack=1 Win=131840 Len=0 SLE=0 SRE=1
+
+Frame 118: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34062, Dst Port: 443, Seq: 1732, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 80.031689      192.168.8.100         13.89.178.27          TCP      266    [TCP Retransmission] 34061 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=212
+
+Frame 119: Packet, 266 bytes on wire (2128 bits), 266 bytes captured (2128 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 13.89.178.27
+Transmission Control Protocol, Src Port: 34061, Dst Port: 443, Seq: 1, Ack: 1, Len: 212
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 80.219254      192.168.8.100         150.171.22.17         TCP      1254   [TCP Retransmission] 34062 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 120: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34062, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 81.656959      192.168.8.100         150.171.22.17         TCP      1254   [TCP Retransmission] 34062 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 121: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34062, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 84.535152      192.168.8.100         150.171.22.17         TCP      1254   [TCP Retransmission] 34062 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 122: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34062, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 87.697252      192.168.8.100         13.89.178.27          TCP      266    [TCP Retransmission] 34061 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=212
+
+Frame 126: Packet, 266 bytes on wire (2128 bits), 266 bytes captured (2128 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 13.89.178.27
+Transmission Control Protocol, Src Port: 34061, Dst Port: 443, Seq: 1, Ack: 1, Len: 212
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 88.782133      192.168.8.100         216.239.36.223        TCP      54     34059 → 443 [RST, ACK] Seq=1201 Ack=1 Win=0 Len=0
+
+Frame 127: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34059, Dst Port: 443, Seq: 1201, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 90.290932      192.168.8.100         150.171.22.17         TCP      1254   [TCP Retransmission] 34062 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 128: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34062, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 95.914738      192.168.8.100         216.239.36.223        TCP      66     34063 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 129: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34063, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 96.014864      216.239.36.223        192.168.8.100         TCP      70     443 → 34063 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 SACK_PERM WS=256
+
+Frame 130: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 216.239.36.223, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34063, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 96.015106      192.168.8.100         216.239.36.223        TCP      54     34063 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=0
+
+Frame 131: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34063, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 96.038308      192.168.8.100         216.239.36.223        TCP      1254   34063 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200 [TCP PDU reassembled in 133]
+
+Frame 132: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34063, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    133 96.038308      192.168.8.100         216.239.36.223        TLSv1.2  694    Client Hello (SNI=instantmessaging-pa.googleapis.com)
+
+Frame 133: Packet, 694 bytes on wire (5552 bits), 694 bytes captured (5552 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34063, Dst Port: 443, Seq: 1201, Ack: 1, Len: 640
+[3 Reassembled TCP Segments (1840 bytes): #132(1200), #134(1200), #133(640)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    134 96.235160      192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34063 → 443 [PSH, ACK] Seq=641 Ack=1 Win=131840 Len=1200 [TCP PDU reassembled in 133]
+
+Frame 134: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34063, Dst Port: 443, Seq: 641, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    135 96.501979      192.168.8.100         13.89.178.27          TCP      54     34061 → 443 [RST, ACK] Seq=213 Ack=1 Win=0 Len=0
+
+Frame 135: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 13.89.178.27
+Transmission Control Protocol, Src Port: 34061, Dst Port: 443, Seq: 213, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    136 96.547630      192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34063 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 136: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34063, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    137 97.157123      192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34063 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 137: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34063, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 97.282103      192.168.8.100         216.239.36.223        TCP      55     [TCP Spurious Retransmission] 34058 → 443 [ACK] Seq=0 Ack=1 Win=131840 Len=1
+
+Frame 138: Packet, 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34058, Dst Port: 443, Seq: 0, Ack: 1, Len: 1
+
+No.     Time           Source                Destination           Protocol Length Info
+    139 98.360274      192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34063 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 139: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34063, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    140 100.775631     192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34063 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 140: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34063, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    143 101.790237     192.168.8.100         150.171.22.17         TCP      1254   [TCP Retransmission] 34062 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 143: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34062, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 105.582218     192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34063 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200
+
+Frame 146: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34063, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    148 115.191629     192.168.8.100         216.239.36.223        TCP      54     34063 → 443 [RST, ACK] Seq=1201 Ack=1 Win=0 Len=0
+
+Frame 148: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34063, Dst Port: 443, Seq: 1201, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    149 115.194654     192.168.8.100         216.239.36.223        TCP      66     34064 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 149: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34064, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    150 115.386023     216.239.36.223        192.168.8.100         TCP      70     443 → 34064 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 SACK_PERM WS=256
+
+Frame 150: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 216.239.36.223, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34064, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    151 115.386292     192.168.8.100         216.239.36.223        TCP      54     34064 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=0
+
+Frame 151: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34064, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    152 115.393954     192.168.8.100         216.239.36.223        TCP      1254   34064 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=1200 [TCP PDU reassembled in 153]
+
+Frame 152: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34064, Dst Port: 443, Seq: 1, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    153 115.393954     192.168.8.100         216.239.36.223        TLSv1.2  694    Client Hello (SNI=instantmessaging-pa.googleapis.com)
+
+Frame 153: Packet, 694 bytes on wire (5552 bits), 694 bytes captured (5552 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34064, Dst Port: 443, Seq: 1201, Ack: 1, Len: 640
+[7 Reassembled TCP Segments (1840 bytes): #152(1200), #154(1200), #153(640), #158(640), #168(640), #200(640), #222(640)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    154 115.769671     192.168.8.100         216.239.36.223        TCP      1254   [TCP Retransmission] 34064 → 443 [PSH, ACK] Seq=641 Ack=1 Win=131840 Len=1200 [TCP PDU reassembled in 153]
+
+Frame 154: Packet, 1254 bytes on wire (10032 bits), 1254 bytes captured (10032 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34064, Dst Port: 443, Seq: 641, Ack: 1, Len: 1200
+
+No.     Time           Source                Destination           Protocol Length Info
+    155 116.186857     216.239.36.223        192.168.8.100         TCP      58     443 → 34064 [ACK] Seq=1 Ack=1201 Win=268544 Len=0
+
+Frame 155: Packet, 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 216.239.36.223, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34064, Seq: 1, Ack: 1201, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    156 116.293908     192.168.8.100         199.232.214.172       TCP      66     34065 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 156: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.214.172
+Transmission Control Protocol, Src Port: 34065, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    157 116.304094     192.168.8.100         199.232.210.172       TCP      66     34066 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 157: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.210.172
+Transmission Control Protocol, Src Port: 34066, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    158 116.754088     192.168.8.100         216.239.36.223        TCP      694    [TCP Retransmission] 34064 → 443 [PSH, ACK] Seq=1201 Ack=1 Win=131840 Len=640 [TCP PDU reassembled in 153]
+
+Frame 158: Packet, 694 bytes on wire (5552 bits), 694 bytes captured (5552 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34064, Dst Port: 443, Seq: 1201, Ack: 1, Len: 640
+
+No.     Time           Source                Destination           Protocol Length Info
+    159 116.835974     199.232.214.172       192.168.8.100         TCP      70     80 → 34065 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 SACK_PERM WS=512
+
+Frame 159: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 199.232.214.172, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 34065, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    160 116.836206     192.168.8.100         199.232.214.172       TCP      54     34065 → 80 [ACK] Seq=1 Ack=1 Win=131840 Len=0
+
+Frame 160: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.214.172
+Transmission Control Protocol, Src Port: 34065, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    161 116.836886     192.168.8.100         199.232.214.172       HTTP     493    GET /filestreamingservice/files/8d925798-8b32-4135-ae74-696ffcebed69?P1=1763651554&P2=404&P3=2&P4=gOc9CjMFpI%2fFS9jPXr0fb%2bXGdWJfv1OeNgQJT5XHdEeX3QeAsrMeT7o6GsyLM0SmNMywvB%2fqC0tGOrpjyxZE5w%3d%3d HTTP/1.1 
+
+Frame 161: Packet, 493 bytes on wire (3944 bits), 493 bytes captured (3944 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.214.172
+Transmission Control Protocol, Src Port: 34065, Dst Port: 80, Seq: 1, Ack: 1, Len: 439
+Hypertext Transfer Protocol
+    GET /filestreamingservice/files/8d925798-8b32-4135-ae74-696ffcebed69?P1=1763651554&P2=404&P3=2&P4=gOc9CjMFpI%2fFS9jPXr0fb%2bXGdWJfv1OeNgQJT5XHdEeX3QeAsrMeT7o6GsyLM0SmNMywvB%2fqC0tGOrpjyxZE5w%3d%3d HTTP/1.1\r\n
+        Request Method: GET
+        Request URI: /filestreamingservice/files/8d925798-8b32-4135-ae74-696ffcebed69?P1=1763651554&P2=404&P3=2&P4=gOc9CjMFpI%2fFS9jPXr0fb%2bXGdWJfv1OeNgQJT5XHdEeX3QeAsrMeT7o6GsyLM0SmNMywvB%2fqC0tGOrpjyxZE5w%3d%3d
+        Request Version: HTTP/1.1
+    Connection: Keep-Alive\r\n
+    Accept: */*\r\n
+    Range: bytes=3145728-4194303\r\n
+    User-Agent: Microsoft-Delivery-Optimization/10.0\r\n
+    MS-CV: QcGAnSYitE6/ppfp.2.3.1.0.0.13.1.1.7.23.1.1\r\n
+    Content-Length: 0\r\n
+    Host: 1d.tlu.dl.delivery.mp.microsoft.com\r\n
+    \r\n
+    [Full request URI […]: http://1d.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/8d925798-8b32-4135-ae74-696ffcebed69?P1=1763651554&P2=404&P3=2&P4=gOc9CjMFpI%2fFS9jPXr0fb%2bXGdWJfv1OeNgQJT5XHdEeX3QeAsrMeT7o6GsyLM0SmNMywvB%2fqC]
+
+No.     Time           Source                Destination           Protocol Length Info
+    162 116.902960     199.232.210.172       192.168.8.100         TCP      70     80 → 34066 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 SACK_PERM WS=512
+
+Frame 162: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 199.232.210.172, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 34066, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    163 116.903161     192.168.8.100         199.232.210.172       TCP      54     34066 → 80 [ACK] Seq=1 Ack=1 Win=131840 Len=0
+
+Frame 163: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.210.172
+Transmission Control Protocol, Src Port: 34066, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    164 116.903525     192.168.8.100         199.232.210.172       HTTP     493    GET /filestreamingservice/files/8d925798-8b32-4135-ae74-696ffcebed69?P1=1763651554&P2=404&P3=2&P4=gOc9CjMFpI%2fFS9jPXr0fb%2bXGdWJfv1OeNgQJT5XHdEeX3QeAsrMeT7o6GsyLM0SmNMywvB%2fqC0tGOrpjyxZE5w%3d%3d HTTP/1.1 
+
+Frame 164: Packet, 493 bytes on wire (3944 bits), 493 bytes captured (3944 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.210.172
+Transmission Control Protocol, Src Port: 34066, Dst Port: 80, Seq: 1, Ack: 1, Len: 439
+Hypertext Transfer Protocol
+    GET /filestreamingservice/files/8d925798-8b32-4135-ae74-696ffcebed69?P1=1763651554&P2=404&P3=2&P4=gOc9CjMFpI%2fFS9jPXr0fb%2bXGdWJfv1OeNgQJT5XHdEeX3QeAsrMeT7o6GsyLM0SmNMywvB%2fqC0tGOrpjyxZE5w%3d%3d HTTP/1.1\r\n
+        Request Method: GET
+        Request URI: /filestreamingservice/files/8d925798-8b32-4135-ae74-696ffcebed69?P1=1763651554&P2=404&P3=2&P4=gOc9CjMFpI%2fFS9jPXr0fb%2bXGdWJfv1OeNgQJT5XHdEeX3QeAsrMeT7o6GsyLM0SmNMywvB%2fqC0tGOrpjyxZE5w%3d%3d
+        Request Version: HTTP/1.1
+    Connection: Keep-Alive\r\n
+    Accept: */*\r\n
+    Range: bytes=3145728-4194303\r\n
+    User-Agent: Microsoft-Delivery-Optimization/10.0\r\n
+    MS-CV: QcGAnSYitE6/ppfp.2.3.1.0.0.13.1.1.7.24.1.1\r\n
+    Content-Length: 0\r\n
+    Host: 1d.tlu.dl.delivery.mp.microsoft.com\r\n
+    \r\n
+    [Full request URI […]: http://1d.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/8d925798-8b32-4135-ae74-696ffcebed69?P1=1763651554&P2=404&P3=2&P4=gOc9CjMFpI%2fFS9jPXr0fb%2bXGdWJfv1OeNgQJT5XHdEeX3QeAsrMeT7o6GsyLM0SmNMywvB%2fqC]
+
+No.     Time           Source                Destination           Protocol Length Info
+    165 117.842723     192.168.8.100         199.232.214.172       TCP      493    [TCP Retransmission] 34065 → 80 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=439
+
+Frame 165: Packet, 493 bytes on wire (3944 bits), 493 bytes captured (3944 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.214.172
+Transmission Control Protocol, Src Port: 34065, Dst Port: 80, Seq: 1, Ack: 1, Len: 439
+
+No.     Time           Source                Destination           Protocol Length Info
+    166 117.886854     199.232.210.172       192.168.8.100         TCP      70     [TCP Retransmission] 80 → 34066 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 SACK_PERM WS=512
+
+Frame 166: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 199.232.210.172, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 34066, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    167 117.886960     192.168.8.100         199.232.210.172       TCP      66     [TCP Dup ACK 163#1] 34066 → 80 [ACK] Seq=440 Ack=1 Win=131840 Len=0 SLE=0 SRE=1
+
+Frame 167: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.210.172
+Transmission Control Protocol, Src Port: 34066, Dst Port: 80, Seq: 440, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    168 117.889406     192.168.8.100         216.239.36.223        TCP      694    [TCP Retransmission] 34064 → 443 [PSH, ACK] Seq=1201 Ack=1 Win=131840 Len=640 [TCP PDU reassembled in 153]
+
+Frame 168: Packet, 694 bytes on wire (5552 bits), 694 bytes captured (5552 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34064, Dst Port: 443, Seq: 1201, Ack: 1, Len: 640
+
+No.     Time           Source                Destination           Protocol Length Info
+    169 117.890629     199.232.214.172       192.168.8.100         TCP      70     [TCP Out-Of-Order] 80 → 34065 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 SACK_PERM WS=512
+
+Frame 169: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 199.232.214.172, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 34065, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    170 117.890735     192.168.8.100         199.232.214.172       TCP      66     [TCP Dup ACK 160#1] 34065 → 80 [ACK] Seq=440 Ack=1 Win=131840 Len=0 SLE=0 SRE=1
+
+Frame 170: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.214.172
+Transmission Control Protocol, Src Port: 34065, Dst Port: 80, Seq: 440, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    171 117.986826     192.168.8.100         199.232.210.172       TCP      493    [TCP Retransmission] 34066 → 80 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=439
+
+Frame 171: Packet, 493 bytes on wire (3944 bits), 493 bytes captured (3944 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.210.172
+Transmission Control Protocol, Src Port: 34066, Dst Port: 80, Seq: 1, Ack: 1, Len: 439
+
+No.     Time           Source                Destination           Protocol Length Info
+    174 118.879066     192.168.8.100         98.66.133.186         TCP      66     34067 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 174: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 98.66.133.186
+Transmission Control Protocol, Src Port: 34067, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    175 118.904966     192.168.8.100         20.50.201.201         TCP      54     34055 → 443 [RST, ACK] Seq=287 Ack=1 Win=0 Len=0
+
+Frame 175: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.50.201.201
+Transmission Control Protocol, Src Port: 34055, Dst Port: 443, Seq: 287, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    176 118.962908     192.168.8.100         192.168.8.255         NBNS     92     Name query NB WPAD<00>
+
+Frame 176: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 192.168.8.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    177 118.964315     192.168.8.100         224.0.0.251           MDNS     70     Standard query 0x0000 A wpad.local, "QM" question
+
+Frame 177: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    179 118.967063     192.168.8.100         224.0.0.251           MDNS     70     Standard query 0x0000 AAAA wpad.local, "QM" question
+
+Frame 179: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    182 119.048406     192.168.8.100         224.0.0.252           LLMNR    64     Standard query 0x4292 A wpad
+
+Frame 182: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 49981, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    184 119.050379     192.168.8.100         224.0.0.252           LLMNR    64     Standard query 0xc6fa AAAA wpad
+
+Frame 184: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 58600, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    185 119.449785     192.168.8.100         199.232.214.172       TCP      493    [TCP Retransmission] 34065 → 80 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=439
+
+Frame 185: Packet, 493 bytes on wire (3944 bits), 493 bytes captured (3944 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.214.172
+Transmission Control Protocol, Src Port: 34065, Dst Port: 80, Seq: 1, Ack: 1, Len: 439
+
+No.     Time           Source                Destination           Protocol Length Info
+    188 119.462548     192.168.8.100         224.0.0.252           LLMNR    64     Standard query 0x4292 A wpad
+
+Frame 188: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 49981, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    189 119.462763     192.168.8.100         224.0.0.252           LLMNR    64     Standard query 0xc6fa AAAA wpad
+
+Frame 189: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 58600, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    190 119.479568     98.66.133.186         192.168.8.100         TCP      70     443 → 34067 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1200 WS=1 SACK_PERM
+
+Frame 190: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 98.66.133.186, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34067, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    191 119.479875     192.168.8.100         98.66.133.186         TCP      54     34067 → 443 [ACK] Seq=1 Ack=1 Win=131840 Len=0
+
+Frame 191: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 98.66.133.186
+Transmission Control Protocol, Src Port: 34067, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    192 119.518027     192.168.8.100         98.66.133.186         TLSv1.2  238    Client Hello (SNI=client.wns.windows.com)
+
+Frame 192: Packet, 238 bytes on wire (1904 bits), 238 bytes captured (1904 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 98.66.133.186
+Transmission Control Protocol, Src Port: 34067, Dst Port: 443, Seq: 1, Ack: 1, Len: 184
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    193 119.546004     20.50.201.201         192.168.8.100         TCP      58     443 → 34055 [ACK] Seq=1 Ack=1 Win=16387 Len=0
+
+Frame 193: Packet, 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 20.50.201.201, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34055, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    194 119.714397     192.168.8.100         192.168.8.255         NBNS     92     Name query NB WPAD<00>
+
+Frame 194: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 192.168.8.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    195 119.745701     192.168.8.100         199.232.210.172       TCP      493    [TCP Retransmission] 34066 → 80 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=439
+
+Frame 195: Packet, 493 bytes on wire (3944 bits), 493 bytes captured (3944 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.210.172
+Transmission Control Protocol, Src Port: 34066, Dst Port: 80, Seq: 1, Ack: 1, Len: 439
+
+No.     Time           Source                Destination           Protocol Length Info
+    196 119.967293     192.168.8.100         224.0.0.251           MDNS     70     Standard query 0x0000 A wpad.local, "QM" question
+
+Frame 196: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    197 119.967918     192.168.8.100         224.0.0.251           MDNS     70     Standard query 0x0000 AAAA wpad.local, "QM" question
+
+Frame 197: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    200 120.142700     192.168.8.100         216.239.36.223        TCP      694    [TCP Retransmission] 34064 → 443 [PSH, ACK] Seq=1201 Ack=1 Win=131840 Len=640 [TCP PDU reassembled in 153]
+
+Frame 200: Packet, 694 bytes on wire (5552 bits), 694 bytes captured (5552 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34064, Dst Port: 443, Seq: 1201, Ack: 1, Len: 640
+
+No.     Time           Source                Destination           Protocol Length Info
+    201 120.436394     20.50.201.201         192.168.8.100         TCP      58     443 → 34055 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
+
+Frame 201: Packet, 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 20.50.201.201, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34055, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    202 120.475299     192.168.8.100         192.168.8.255         NBNS     92     Name query NB WPAD<00>
+
+Frame 202: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 192.168.8.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    203 120.603054     192.168.8.100         98.66.133.186         TCP      238    [TCP Retransmission] 34067 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=184
+
+Frame 203: Packet, 238 bytes on wire (1904 bits), 238 bytes captured (1904 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 98.66.133.186
+Transmission Control Protocol, Src Port: 34067, Dst Port: 443, Seq: 1, Ack: 1, Len: 184
+
+No.     Time           Source                Destination           Protocol Length Info
+    204 122.371388     192.168.8.100         98.66.133.186         TCP      238    [TCP Retransmission] 34067 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=184
+
+Frame 204: Packet, 238 bytes on wire (1904 bits), 238 bytes captured (1904 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 98.66.133.186
+Transmission Control Protocol, Src Port: 34067, Dst Port: 443, Seq: 1, Ack: 1, Len: 184
+
+No.     Time           Source                Destination           Protocol Length Info
+    205 122.640018     192.168.8.100         199.232.214.172       TCP      493    [TCP Retransmission] 34065 → 80 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=439
+
+Frame 205: Packet, 493 bytes on wire (3944 bits), 493 bytes captured (3944 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.214.172
+Transmission Control Protocol, Src Port: 34065, Dst Port: 80, Seq: 1, Ack: 1, Len: 439
+
+No.     Time           Source                Destination           Protocol Length Info
+    206 123.256227     192.168.8.100         199.232.210.172       TCP      493    [TCP Retransmission] 34066 → 80 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=439
+
+Frame 206: Packet, 493 bytes on wire (3944 bits), 493 bytes captured (3944 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.210.172
+Transmission Control Protocol, Src Port: 34066, Dst Port: 80, Seq: 1, Ack: 1, Len: 439
+
+No.     Time           Source                Destination           Protocol Length Info
+    211 124.025975     192.168.8.100         150.171.22.17         TCP      55     [TCP Spurious Retransmission] 34062 → 443 [ACK] Seq=0 Ack=1 Win=131840 Len=1
+
+Frame 211: Packet, 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34062, Dst Port: 443, Seq: 0, Ack: 1, Len: 1
+
+No.     Time           Source                Destination           Protocol Length Info
+    212 124.237478     192.168.8.100         192.168.8.255         NBNS     92     Name query NB WPAD<00>
+
+Frame 212: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 192.168.8.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    213 124.238367     192.168.8.100         224.0.0.251           MDNS     70     Standard query 0x0000 A wpad.local, "QM" question
+
+Frame 213: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    215 124.240216     192.168.8.100         224.0.0.251           MDNS     70     Standard query 0x0000 AAAA wpad.local, "QM" question
+
+Frame 215: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    218 124.243488     192.168.8.100         224.0.0.252           LLMNR    64     Standard query 0xbd84 A wpad
+
+Frame 218: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 64286, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    220 124.244859     192.168.8.100         224.0.0.252           LLMNR    64     Standard query 0x6f19 AAAA wpad
+
+Frame 220: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 56515, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    221 124.597208     192.168.8.100         20.50.201.201         TCP      66     34068 → 443 [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 221: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.50.201.201
+Transmission Control Protocol, Src Port: 34068, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    222 124.642867     192.168.8.100         216.239.36.223        TCP      694    [TCP Retransmission] 34064 → 443 [PSH, ACK] Seq=1201 Ack=1 Win=131840 Len=640 [TCP PDU reassembled in 153]
+
+Frame 222: Packet, 694 bytes on wire (5552 bits), 694 bytes captured (5552 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 216.239.36.223
+Transmission Control Protocol, Src Port: 34064, Dst Port: 443, Seq: 1201, Ack: 1, Len: 640
+
+No.     Time           Source                Destination           Protocol Length Info
+    224 124.659574     192.168.8.100         224.0.0.252           LLMNR    64     Standard query 0xbd84 A wpad
+
+Frame 224: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 64286, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    226 124.660058     192.168.8.100         224.0.0.252           LLMNR    64     Standard query 0x6f19 AAAA wpad
+
+Frame 226: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 56515, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    227 124.770253     192.168.8.100         150.171.22.17         TCP      54     34062 → 443 [RST, ACK] Seq=1201 Ack=1 Win=0 Len=0
+
+Frame 227: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 150.171.22.17
+Transmission Control Protocol, Src Port: 34062, Dst Port: 443, Seq: 1201, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    228 124.830723     20.50.201.201         192.168.8.100         TCP      70     443 → 34068 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1200 WS=256 SACK_PERM
+
+Frame 228: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a), Dst: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 0
+Internet Protocol Version 4, Src: 20.50.201.201, Dst: 192.168.8.100
+Transmission Control Protocol, Src Port: 443, Dst Port: 34068, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    229 124.830927     192.168.8.100         20.50.201.201         TCP      54     34068 → 443 [ACK] Seq=1 Ack=1 Win=262144 Len=0
+
+Frame 229: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.50.201.201
+Transmission Control Protocol, Src Port: 34068, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    230 124.833325     192.168.8.100         20.50.201.201         TLSv1.2  340    Client Hello (SNI=self.events.data.microsoft.com)
+
+Frame 230: Packet, 340 bytes on wire (2720 bits), 340 bytes captured (2720 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.50.201.201
+Transmission Control Protocol, Src Port: 34068, Dst Port: 443, Seq: 1, Ack: 1, Len: 286
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    231 124.993892     192.168.8.100         192.168.8.255         NBNS     92     Name query NB WPAD<00>
+
+Frame 231: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 192.168.8.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    232 125.246336     192.168.8.100         224.0.0.251           MDNS     70     Standard query 0x0000 A wpad.local, "QM" question
+
+Frame 232: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    234 125.248219     192.168.8.100         224.0.0.251           MDNS     70     Standard query 0x0000 AAAA wpad.local, "QM" question
+
+Frame 234: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    236 125.389011     192.168.8.100         20.50.201.201         TCP      340    [TCP Retransmission] 34068 → 443 [PSH, ACK] Seq=1 Ack=1 Win=262144 Len=286
+
+Frame 236: Packet, 340 bytes on wire (2720 bits), 340 bytes captured (2720 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.50.201.201
+Transmission Control Protocol, Src Port: 34068, Dst Port: 443, Seq: 1, Ack: 1, Len: 286
+
+No.     Time           Source                Destination           Protocol Length Info
+    237 125.752522     192.168.8.100         192.168.8.255         NBNS     92     Name query NB WPAD<00>
+
+Frame 237: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 192.168.8.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    238 125.891423     192.168.8.100         98.66.133.186         TCP      238    [TCP Retransmission] 34067 → 443 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=184
+
+Frame 238: Packet, 238 bytes on wire (1904 bits), 238 bytes captured (1904 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 98.66.133.186
+Transmission Control Protocol, Src Port: 34067, Dst Port: 443, Seq: 1, Ack: 1, Len: 184
+
+No.     Time           Source                Destination           Protocol Length Info
+    239 126.083432     192.168.8.100         20.50.201.201         TCP      340    [TCP Retransmission] 34068 → 443 [PSH, ACK] Seq=1 Ack=1 Win=262144 Len=286
+
+Frame 239: Packet, 340 bytes on wire (2720 bits), 340 bytes captured (2720 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.50.201.201
+Transmission Control Protocol, Src Port: 34068, Dst Port: 443, Seq: 1, Ack: 1, Len: 286
+
+No.     Time           Source                Destination           Protocol Length Info
+    240 127.464592     192.168.8.100         20.50.201.201         TCP      340    [TCP Retransmission] 34068 → 443 [PSH, ACK] Seq=1 Ack=1 Win=262144 Len=286
+
+Frame 240: Packet, 340 bytes on wire (2720 bits), 340 bytes captured (2720 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 20.50.201.201
+Transmission Control Protocol, Src Port: 34068, Dst Port: 443, Seq: 1, Ack: 1, Len: 286
+
+No.     Time           Source                Destination           Protocol Length Info
+    241 129.002737     192.168.8.100         199.232.214.172       TCP      493    [TCP Retransmission] 34065 → 80 [PSH, ACK] Seq=1 Ack=1 Win=131840 Len=439
+
+Frame 241: Packet, 493 bytes on wire (3944 bits), 493 bytes captured (3944 bits) on interface \Device\NPF_{5E97C838-5B91-440E-9FD8-189A7D1BB2B1}, id 0
+Ethernet II, Src: LiteonTechno_2c:8f:b3 (b8:ee:65:2c:8f:b3), Dst: HuaweiTechno_19:a8:4a (04:79:70:19:a8:4a)
+Internet Protocol Version 4, Src: 192.168.8.100, Dst: 199.232.214.172
+Transmission Control Protocol, Src Port: 34065, Dst Port: 80, Seq: 1, Ack: 1, Len: 439
